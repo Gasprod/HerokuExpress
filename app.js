@@ -4,7 +4,7 @@ var express = require("express"),
 app.set("port", process.env.PORT || 3000);
 
 app.get("/", function(req, res) {
-  res.send("Hello from Herok Exress NodeJS world !");
+  res.send("Hello from Heroku & Exress & NodeJS world ! Hello Martinka ! Schmatz ! @GasparskY");
 });
 
 app.listen(app.get("port"), function() {
