@@ -1,0 +1,12 @@
+{
+	"private": true,
+  	"scripts": {
+    "start": "node app"
+  	},
+  	"dependencies": {
+    	"express": "5.0.0-alpha.5"
+  	},
+  	"engines": {
+  		"node": "4.2.x"
+	}
+}
