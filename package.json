@@ -1,12 +1,33 @@
 {
-	"private": true,
-  	"scripts": {
-    "start": "node app"
-  	},
-  	"dependencies": {
-    	"express": "5.0.0-alpha.5"
-  	},
-  	"engines": {
-  		"node": "4.2.x"
-	}
+  "private": true,
+  "scripts": {
+    "start": "node app",
+    "grunt": "grunt",
+    "devDependencies": {
+      "colors": "^1.1.2",
+      "grunt": "^1.0.1",
+      "grunt-browserify": "^5.0.0",
+      "grunt-cli": "^1.2.0",
+      "grunt-contrib-less": "^1.4.1",
+      "grunt-contrib-uglify": "^3.0.1",
+      "grunt-contrib-watch": "^1.0.0"
+    }
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "ejs": "^2.5.6",
+    "express": "5.0.0-alpha.5",
+    "grunt": "^1.0.1",
+    "grunt-browserify": "^5.0.0",
+    "grunt-cli": "^1.2.0",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-uglify": "^3.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "morgan": "^1.8.2",
+    "randomcolor": "^0.5.3",
+    "uglify-js": "^3.0.15"
+  },
+  "engines": {
+    "node": "4.2.x"
+  }
 }
